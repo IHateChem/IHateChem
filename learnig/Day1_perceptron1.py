@@ -142,3 +142,31 @@ img_show(img)
 print(t_train.shape)
 print(x_test.shape)
 print(t_test.shape)'''
+
+
+'''
+0710: 손실함수: 신경망이 지표를 삼아서 탐색하도록 하는 것. 
+
+보통 Sum of Squares for error(sse), croos entropy errror를 자주 이용한다. 
+
+SSE: 1/2 * sigma (y_k - t_k)^2 y_k: 신경망의 출력을 의미 t_k: 정답레이블 k: 차원
+CEE: - sigma t_k * log y_k
+
+
+학습 시킬때 보통 빅데이터로 하기에 전부다 활용하여 학습 시키기엔 현실적인 부담이 있음:
+
+그래서 모집단에서 부분적으로 추출하여 학습을 진행 -> 정규화를 시킴. 
+
+'''
+
+
+
+
+def SSE(y,t): #Sum of square of error
+    return 0.5*np.sum((y-t)**2)
+def CEE(y,t): #cross Entropy Error
+    delta = 1e-7 #0이 들어갔을때 =무한대 나오는거 방지하기 위해 아주 작은 숫자를 더해쥼ㅇㅅㅇ
+    return -1*np.sum(t*np.log(y+delta))
+
+
+
