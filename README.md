@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @IHateChem I'm from Korea
-- 👀 I’m interested in Computer Science.. I hope to Make My Own AI
+- 👀 I’m interested in Computer Science.. I hoped to Make My Own AI nowaday, I wand to be a backend Engineer
 - 📫 How to reach me ...
-If you want to contact to me, Just mail to syleelsw@seoul.ac.kr
+If you want to contact to me, Just mail to syleelsw@snu.ac.kr
 
 <!---
 IHateChem/IHateChem is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
